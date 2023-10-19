@@ -1,0 +1,119 @@
+R basics for hydraulics
+========================================================
+
+
+
+Seongjin Noh
+
+
+
+R as a calculator part I
+========================================================
+# 3 plus 3
+# 3 times 3
+# 3 divided by 3
+# a remainder of 17 divided by 5
+
+
+R as a calculator part II
+========================================================
+# a root of 3
+# 3 powered by 2
+# 3 powered by 2 minus 5
+# a root of 7 divided by (a root of 5 minus 2)
+
+
+R syntax 
+========================================================
+
+```{r,collapse=TRUE}
+# Just add # in front of your comment
+# here is my comment
+
+# R is case-sensitive
+x = 1
+X = 2
+cat("x:",x,"  X:",X)
+
+# try ?cat 
+# if you don't know what cat function is
+```
+
+
+Types
+========================================================
+
+- Primitives (numeric, integer, character, logical)
+- Vectors
+- Matrices
+- Arrays
+- Data Frames
+- Lists
+- Factors
+- Others (functions, closures, promises..)
+
+Simple Types
+========================================================
+
+```{r,collapse=TRUE}
+x <- 1
+class(x)
+ 
+y <- "Hello World"
+class(y)
+ 
+z <- TRUE
+class(z)
+ 
+as.integer(z)
+```
+
+Simple Types - Vectors 
+========================================================
+
+```{r, collapse=TRUE} 
+x <- c(1,2,3)
+x
+x <- 1:3
+x
+# x*3
+```
+
+Generating Vectors
+========================================================
+R provides lots of convenience functions for data generation:
+ 
+```{r,collapse=TRUE}
+rep(0, 5)
+seq(1,10)
+
+```
+
+Plotting vectors
+========================================================
+ 
+```{r,collapse=TRUE}
+#x = 1:10
+#y 
+# plot
+```
+
+
+Plotting a (sliced) pipe
+========================================================
+ 
+```{r,collapse=TRUE}
+x = 1:10
+#y 
+#y1
+#plot
+
+```
+
+Plotting a graph
+========================================================
+ 
+```{r,collapse=TRUE}
+#http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
+
+```
