@@ -13,8 +13,11 @@ This repository can be opened in Posit Cloud (previous R Studio Cloud)
 # Posit cloud 에서 open-water-code 사용법
 1. Posit cloud(https://posit.cloud/) 접속하여 로그인
 2. 새 프로젝트 생성시 open-water-code GitHub 주소 입력(https://github.com/cyber-hydrology/open-water-code.git)
+
 ![posit_cloud](https://github.com/cyber-hydrology/open-water-code/assets/11220666/5e798060-1f02-4ad5-b404-6ea913330bae)
+
 3. open-water-code 실행
+   
 ![open-water-code-posit-example](https://github.com/cyber-hydrology/open-water-code/assets/11220666/cdd1069f-4f74-4152-a4f8-2291f0eb952d)
 
    
